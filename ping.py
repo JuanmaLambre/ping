@@ -1,12 +1,10 @@
 from flask import Flask
 
-# dummy commit
-
 app = Flask(__name__)
 
 
 @app.route('/')
-def ping():
+def home():
     return "Hello world :)"
 
 @app.route('/ping')
