@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello world :D"
+    return "Hello world :)"
 
 @app.route('/ping')
 def ping():
